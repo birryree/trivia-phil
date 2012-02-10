@@ -1,0 +1,38 @@
+p.speech {
+   position: absolute;
+   left: 25em;
+   width: 35em;
+   height: 12em;
+   text-align: center;
+   line-height: 5em;
+   background-color: #fff;
+   border: 1em solid #fff;
+   -webkit-border-radius: 1.5em;
+   -moz-border-radius: 1.5em;
+   border-radius: 1.5em;
+   -webkit-box-shadow: 0.25em 0.25em 0.5em #888;
+   -moz-box-shadow: 0.25em 0.25em 0.5em #888;
+   box-shadow: 0.25em 0.25em 0.5em #888; 
+}
+
+p.speech:before {
+   content: ' ';
+   position: absolute;
+   width: 0;
+   height: 0;
+   left: 2em;
+   top: 13em;
+   border: 1.8em solid;
+   border-color: #fff transparent transparent #fff;
+}
+
+p:speech:after {
+   
+}
+
+body {
+   background-color: black;
+   background-image: url('hamster.png');
+   background-repeat: no-repeat;
+   background-position: left -20%;
+}
